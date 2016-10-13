@@ -1,22 +1,22 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Lina Blog
+SEOTitle: 赵丽娜的博客 | Lina Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: zhaolina1994@outlook.com
+description: "关于前端与生活 | 赵丽娜，Web & Front-End Engineer | 这里是 @Lina赵丽娜 的个人博客，与你一起发现更大的世界。"
+keyword: "赵丽娜 Lina Nina 前端 健身"
+url: "http://zhaolina1994.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+#weibo_username:     zhaolina
+#zhihu_username:     zhaolina
+#github_username:    zhaolina
+#twitter_username:  zhaolina
+#facebook_username:  zhaolina
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -51,7 +51,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: linablog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -63,14 +63,14 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: zhaolina1994.com
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
+sidebar-about-description: "写写代码，造造轮子。去想去的地方，看想看的风景，吃想吃的东西，尝试各种新鲜事物，成为自己想成为的人."
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -90,37 +90,34 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
+        title: "廖雪峰的官方网站",
+        href: "http://www.liaoxuefeng.com/"
     },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "阮一峰的网络日志",
+        href: "http://www.ruanyifeng.com/blog/"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        title: "前端早读课",
+        href: "http://www.zaoduke.net/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "奇舞周刊",
+        href: "http://old.75team.com/weekly/"
     },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
+        title: "前端网",
+        href: "http://www.w3cfuns.com/"
     },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "前端乱炖",
+        href: "http://www.html-js.com/"
     },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
+        title: "伯乐在线",
+        href: "http://web.jobbole.com/"
     },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        title: "前端资源",
+        href: "https://uptodate.frontendrescue.org/zh/"
     },{
-        title: "DHong Say",
-        href: "http://dhong.co"
+        title: "前端里",
+        href: "http://www.yyyweb.com/"
     },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "前端学习",
+        href: "http://www.css88.com/"
     }
 ]
