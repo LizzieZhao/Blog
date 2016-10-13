@@ -71,7 +71,7 @@ ga_domain: zhaolina1994.com
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，造造轮子。去想去的地方，看想看的风景，吃想吃的东西，尝试各种新鲜事物，成为自己想成为的人."
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-lina.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
