@@ -1,0 +1,91 @@
+---
+layout:     post
+title:      "React 封装 Form 组件"
+subtitle:   "利用 React 封装 Form 组件所遇到的所有的坑以及解决方案"
+date:       2016-10-13 08:00:00
+author:     "Lina"
+header-img: "img/post-bg-react.jpg"
+catalog: true
+tags:
+    - React
+    - Form 表单
+    - fetch
+---
+
+## 前言
+
+来到公司后，接手的第一个项目是用 React 封装一套 UI 框架，我负责的是整个 Form 表单这部分。
+
+在对 Form 表单进行封装的时候，遇到了很多问题。在这里对遇到的问题进行一次总结。
+
+写了这么久了，组件还是一堆 bug ，好心塞:(
+
+---
+
+## 正文
+
+### state / props
+
+state 是会改变的。譬如对于 Input 组件来说，value 就是一个 state。
+
+每次用户输入时，都会更改 Input 的 value 状态。
+
+props 是属性的意思。也就是说它不会随便改变。
+
+所以在写组件的时候要严格区分 state 和 props 的区别，避免在组件里面混淆。
+
+---
+
+### props 的传递
+
+在对组件进行封装的时候，除了组件本身的属性，比如 `<input/>` 元素本身就有 value、name、placeholder等属性，所以以下这种写法是没问题的。
+
+![props 的传递](/img/in-posts/react_01.png)
+
+然后我给 Input 组件增加了 validate 这个属性，并且以上面这种传递给 Input。
+
+然后就报错了。当时一直不明白这个错误为什么会有，知道后来才明白。
+**只能给 element 传递它本身有的属性，因为它归根结底还是要以 html 中 dom 的形式展现出来**
+
+---
+
+### WillReceiveProps
+
+几乎所有的组件都需要 WillReceiveProps 这个生命周期。
+
+假如组件的某个 props 可以接受外部参数，并且这个外部参数不是固定的，这个时候就需要 WillReceiveProps 这个方法。
+
+---
+
+### Input 的 value 设置
+
+在 Input 组件的 defaultProps 里面，会有设置 value 的 defaultProps 为 ""。
+
+原因是，Input 组件如果一开始没有 value 值，它就是一个不可控元素。
+
+此时对它 value 进行动态更改，在 React 里面是不支持的。
+
+---
+
+### Form 表单组件之间的数据传递
+
+一开始写完了单个组件，并且在单个组件的 state 状态中都可以取到选中值，但是却没办法进行数据的传递。
+
+譬如说，这样的结构：
+
+![数据传递](/img/in-posts/react_02.png)
+
+想在 FormItem 里面直接取到 Input 的值，也就是说想让 FormItem 的 value 状态跟 Input 的 value 状态保持同步。
+
+我们知道，React 是单向数据流，也就是说，Input 可以从 props 中轻而易举的获得到东西，但是 FormItem 组件却不能这样简单的获取到 Input 的数据。
+
+这个时候就用到了在 Form 表单中十分重要的东西**回调**
+
+---
+
+## 后记
+
+
+
+
+
