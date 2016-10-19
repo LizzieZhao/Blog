@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "To be what you want to be"
+subtitle:   "Do what you want, be want you want to be"
+date:       2016-10-18 09:00:00
+author:     "Lina"
+header-img: "img/post-bg-plan.jpg"
+catalog: true
+tags:
+    - 生活
+    - 学习
+    - 计划
+---
+
+> “This is your life. Do what you love, and do it often.”
+
+
+## 前言
+
+再不计划一波，就真的成废人了
+
+![废人一个](/img/in-posts/plan_01.jpg)
+
+---
+
+## 正文
+
+### 工作计划
+
+---
+
+### 学习计划
+
+---
+
+### 生活计划
+
+---
+
+## 后记
+
+> ＂Yesterday, you said tomorrow＂
+
+
+
