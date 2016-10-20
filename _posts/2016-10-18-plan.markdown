@@ -27,6 +27,13 @@ tags:
 
 ### 工作计划
 
+1. 基于 React 框架开发的 UI 框架；
+2. 基于 CSS 的项目；
+3. 基于 Gulp、Webpack、Babel、Bower、Express 框架的项目；
+4. 基于 React Native 的项目；
+5. 基于数据结构、算法、设计模式的项目；
+6. 基于 JS、CSS、HTML 的项目；
+
 ---
 
 ### 学习计划
@@ -34,6 +41,8 @@ tags:
 ---
 
 ### 生活计划
+
+
 
 ---
 
