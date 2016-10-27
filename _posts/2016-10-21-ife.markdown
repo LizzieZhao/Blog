@@ -29,9 +29,9 @@ tags:
 
 #### task_13
 
-** [任务说明](http://ife.baidu.com/task/detail?taskId=13) **
+[任务说明](http://ife.baidu.com/task/detail?taskId=13)
 
-** [Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_13.html) **
+[Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_13.html)
 
 太久没写过这个了，连最简单的功能都没实现。下面是我写的：
 
@@ -49,5 +49,34 @@ tags:
 2. 转换数值，判断数值有效性。
 3. 添加回车事件。
 
+---
 
+### task_14
+
+[任务说明](http://ife.baidu.com/task/detail?taskId=13)
+
+[Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_14.html)
+
+这个任务涉及内容包括：
+
+1. 数组的排序。
+2. document.createElement 方法。
+3. 循环遍历。
+
+一开始写一点头绪都没有，想来几个月前还认真学过的。心塞:(
+
+思考过程：
+
+1. 对数组进行排序，涉及方法 sort()。
+2. 对数组进行选择，挑选出大于60的 if(){}。
+3. 创建元素，添加元素。
+
+![初始版](/img/in-posts/ife_03.png)
+
+
+升级版，涉及 filter(), forEach() 方法。
+
+![升级版](/img/in-posts/ife_04.png)
+
+---
 
