@@ -51,9 +51,9 @@ tags:
 
 ---
 
-### task_14
+#### task_14
 
-[任务说明](http://ife.baidu.com/task/detail?taskId=13)
+[任务说明](http://ife.baidu.com/task/detail?taskId=14)
 
 [Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_14.html)
 
@@ -80,3 +80,53 @@ tags:
 
 ---
 
+#### task_15
+
+[任务说明](http://ife.baidu.com/task/detail?taskId=15)
+
+[Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_15.html)
+
+这个任务涉及的知识点：
+
+1. ParentNode.childElementCount
+2. ParentNode.children
+3. array.push([key,value])
+4. string.split()
+5. array.sort()
+6. getElementsByTagName()
+7. string.match() -- 正则表达式
+
+好多用到的方法自己根本也没有接触过，果然撸码这种事情还是要靠实践。
+
+干巴爹！
+
+很着急，着急成为一个bg，着急脱贫，着急变成更好的自己，着急见到你。
+
+---
+
+#### task_16
+
+[任务说明](http://ife.baidu.com/task/detail?taskId=16)
+
+[Demo](http://htmlpreview.github.io/?https://github.com/LizzieZhao/ife/blob/master/stage2/task_16.html)
+
+这个任务涉及的知识点：
+
+1. match 正则表达式
+2. addEventListener("trigger", fun)
+3. nodeName
+4. dataset
+
+亮点：
+
+1. 用 data-set 来获取城市数据
+2. 根据判断而不是循环来给 button 添加事件
+3. 错误解决
+
+根据任务的 html，显示下图错误：
+
+![错误展示](/img/in-posts/ife_05.png)
+
+**原因**：js 文件位置处在 head 部分，文档会先执行 js，然而这个时候 button 按钮还未出现。
+
+---
