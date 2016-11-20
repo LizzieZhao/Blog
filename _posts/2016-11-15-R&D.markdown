@@ -38,7 +38,7 @@ tags:
 ````javascript
 function asyncFunc(str1, str2, callback) {
   console.log(str1);
-  setTimeOut(function(){
+  setTimeout(function(){
     console.log(str2);
     callback();
   },1000);
@@ -55,7 +55,21 @@ asyncFunc('F','G',function() {
 });
 ````
 
-**结果：**
+**结果：** 'A''F''B''C''G''H''D''E'
+
+2. 阅读下面代码，然后回答问题。
+````javascript
+(function() {
+  var a=b=5;
+})();
+
+console.log(a);
+console.log(b);
+````
+请回答下列问题：
+(1) 该程序是否会显示错误信息，请说出您的理由？
+(2) 写出程序运行的结果。
+(3) 若在 IIFE 中使用严格模式，需要如何调整才能使 console.log(b) 不出错，请写出代码。 
 
 
 ---
