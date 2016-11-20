@@ -24,9 +24,38 @@ tags:
 ## 正文
 
 ### 填空题
-1. CSS 的全称是（中英皆可）：<u>Cascading Style Sheets</u>
-2. 请列举出几种 CSS 选择器：<u>元素选择器、类选择器、ID 选择器、属性选择器、后代选择器、子元素选择器、相邻兄弟选择器、伪类、伪元素</u>
-3. JavaScript 的对象是基于<u>原型对象</u>
+1. CSS 的全称是（中英皆可）：<u>Cascading Style Sheets</u>。
+2. 请列举出几种 CSS 选择器：<u>元素选择器、类选择器、ID 选择器、属性选择器、后代选择器、子元素选择器、相邻兄弟选择器、伪类、伪元素</u>。
+3. 请列举 CSS 中的几个伪类：<u>:hover、:link、:active、:visited、:focus</u>。
+4. JavaScript 的对象是基于<u>原型对象</u>。
+5. 请列举一些常见的 JavaScript 开发框架：<u>Bootstrap、jQuery UI、React</u>。
+6. 请列举一些常见的任务管理工具：<u>gulp、grunt、webpack</u>。
+7. 常见的浏览器内核有哪些：<u>Trident(IE)、Geoko(Firefox)、Webkit(Safari、Chrome)、Presto(Opera)</u>。
+8. 行内元素有哪些：<u>span、img、b、input、br、button、label</u>。
+
+### 程序题
+1. 阅读下面代码，然后写出程序运行结果。
+````
+function asyncFunc(str1, str2, callback) {
+  console.log(str1);
+  setTimeOut(function(){
+    console.log(str2);
+    callback();
+  },1000);
+}
+
+asyncFunc('A','B',function() {
+  asyncFunc('C','D',function() {
+    console.log('E');
+  });
+});
+
+asyncFunc('F','G',function() {
+  console.log('H');
+});
+````
+
+**结果：**
 
 
 ---
