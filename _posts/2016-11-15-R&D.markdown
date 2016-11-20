@@ -35,7 +35,7 @@ tags:
 
 ### 程序题
 1. 阅读下面代码，然后写出程序运行结果。
-````
+````javascript
 function asyncFunc(str1, str2, callback) {
   console.log(str1);
   setTimeOut(function(){
