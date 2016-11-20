@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "前端开发工程师试题"
+subtitle:   " \"Front End Engineer\""
+date:       2016-11-14 08:00:00
+author:     "Lina"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 笔试题
+---
+
+> “You cannot start the next chapter of your life if you keep re-reading the last one.”
+
+
+## 前言
+
+老大给了一份笔试题，发现好多都是感觉会，但是实际什么也讲不出来。
+
+心塞 :(
+
+---
+
+## 正文
+
+### 填空题
+1. CSS 的全称是（中英皆可）：<u>Cascading Style Sheets</u>
+2. 请列举出几种 CSS 选择器：<u>元素选择器、类选择器、ID 选择器、属性选择器、后代选择器、子元素选择器、相邻兄弟选择器、伪类、伪元素</u>
+3. JavaScript 的对象是基于<u>原型对象</u>
+
+
+---
+
+## 后记
+
+> ＂Yesterday, you said tomorrow＂
