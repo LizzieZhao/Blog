@@ -96,8 +96,13 @@ $.get('url_b', (data)=>{
 (2) 现需要在 AAA 及 BBB 均输出之后再直接输出一个字符串 CCC，请对以上代码进行一定的调整，要求以上两个异步请求保持并行发送。    
 
 **结果：**    
-(1) AAA 先显示。    
-(2)    
+(1) AAA               
+(2) 代码调整如下：            
+<pre><code>
+$( document ).ajaxComplete(function() {
+  console.log("CCC");
+});
+</code></pre>   
 
 ### 简答题
 1. 请谈谈你对 JavaScript 的理解？
